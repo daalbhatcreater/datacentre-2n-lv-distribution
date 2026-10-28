@@ -1,0 +1,13 @@
+t (s),event
+10.0,"Utility A lost, undervoltage timer started"
+13.0,"Undervoltage confirmed, DG-A start signal"
+15.0,MDB-M1 ATS transferred to source B
+15.0,LDB ATS transferred to source B
+23.1,DG-A start attempt 1 failed
+43.3,DG-A start attempt 2 failed
+63.5,"DG-A failed to start after 3 attempts, alarm"
+1319.5,"UPS-A battery end of discharge, UPS-A output off; racks carried by B cords"
+2400.0,"Utility A restored with QA1 still closed, MSB-A back on utility"
+2420.0,"UPS-A restarted on restored input, load shared A/B again"
+2700.0,MDB-M1 ATS returned to preferred source A
+2700.0,LDB ATS returned to preferred source A

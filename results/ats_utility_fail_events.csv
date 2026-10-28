@@ -1,0 +1,14 @@
+t (s),event
+10.0,"Utility A lost, undervoltage timer started"
+13.0,"Undervoltage confirmed, DG-A start signal"
+15.0,MDB-M1 ATS transferred to source B
+15.0,LDB ATS transferred to source B
+22.1,DG-A at rated voltage and frequency
+24.1,QA1 utility ACB open command
+24.7,"QA2 generator ACB closed, MSB-A on DG"
+324.7,MDB-M1 ATS returned to preferred source A
+324.7,LDB ATS returned to preferred source A
+900.0,"Utility A restored, stability timer started"
+1200.0,QA2 generator ACB open command (retransfer)
+1200.6,"QA1 utility ACB closed, MSB-A on utility; DG-A cooling down"
+1500.7,DG-A stopped after cool-down
